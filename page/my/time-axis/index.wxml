@@ -1,0 +1,50 @@
+<!-- <view class='weui-cell-third'>
+  <block wx:for="{{axis}}">
+    <view class='weui-cell-list'>
+      <view class='weui-cell-line'></view>
+      <view class='weui-cell-circle'>
+        <view class='axis-datatime'>
+          <view class='data'>12.13</view>
+          <view class='year'>2018</view>
+        </view>
+        <view class='axis-content'>
+          你好啊
+        </view>
+      </view>
+      <view class='weui-cell-line'>
+      </view>
+    </view>
+  </block>
+</view> -->
+
+<view class='weui-axis'>
+  <view class='flex-wrp weui-axis-list'>
+    <view class='flex-item weui-left'></view>
+    <view class='flex-item weui-middle'>
+      <view class='weui-axis-line'></view>
+      <view class='weui-axis-circle'></view>
+      <view class='weui-axis-line'></view>
+    </view>
+    <view class='flex-item weui-right'>
+      <view class='weui-axis-content'><view class='weui-axis-arrow'></view></view>
+    </view>
+  </view>
+  <view class='flex-wrp weui-axis-list'>
+    <view class='flex-item weui-left'></view>
+    <view class='flex-item weui-middle'>
+      <view class='weui-axis-line'></view>
+      <view class='weui-axis-circle'></view>
+      <view class='weui-axis-line'></view>
+    </view>
+    <view class='flex-item weui-right'></view>
+  </view>
+  <view class='flex-wrp weui-axis-list'>
+    <view class='flex-item weui-left'></view>
+    <view class='flex-item weui-middle'>
+      <view class='weui-axis-line'></view>
+      <view class='weui-axis-circle'></view>
+      <view class='weui-axis-line'></view>
+    </view>
+    <view class='flex-item weui-right'></view>
+  </view>
+</view>

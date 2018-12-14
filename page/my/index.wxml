@@ -1,0 +1,40 @@
+<view class="user">
+  <view>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  </view>
+  <view class="user-info">
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="edit">查看或编辑个人主页</text>
+  </view>
+</view>
+
+<view class="user-menu-list">
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100'>
+    <span class='iconfont icon-xiaoxi'></span>
+    <text>社团消息</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100'>
+    <span class='iconfont icon-huodong'></span>
+    <text>社团活动</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100'>
+    <span class='iconfont icon-guanli'></span>
+    <text>社团管理</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100' bindtap='goToTimeAxis'>
+    <span class='iconfont icon-lishijilu'></span>
+    <text>社团历史</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100'>
+    <span class='iconfont icon-yijianfankui'></span>
+    <text>意见反馈</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100'>
+    <span class='iconfont icon-lianxiwomen'></span>
+    <text>联系我们</text>
+  </view>
+  <view class='user-menu' hover-class='hover-user-menu' hover-stay-time='100' style='border-bottom: 0px solid #d8d8d8;'>
+    <span class='iconfont icon-shezhi'></span>
+    <text>设置</text>
+  </view>
+</view>

@@ -1,0 +1,122 @@
+page {
+  background: #f0f0f0;
+}
+
+/* 带箭头的对话框开始 */
+
+.tip {
+  position: relative;
+  background-color: white;
+  margin-top: -35rpx;
+  margin-left: 60rpx;
+  width: 492rpx;
+  height: auto;
+  line-height: 86rpx;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tip:after {
+  content: '';
+  color: #f0f0f0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 16rpx solid;
+}
+
+.left:after {
+  border-right-color: white;
+  top: 50rpx;
+  right: 100%;
+  margin-top: -18rpx;
+}
+
+/* 带箭头的对话框结束 */
+
+.weui-axis-line {
+  margin-left: 15rpx;
+  border-left: 6rpx solid #ddd;
+  height: 60rpx;
+}
+
+.weui-axis-circle {
+  border-radius: 20rpx;
+  margin-left: 8rpx;
+  width: 20rpx;
+  height: 20rpx;
+  background-color: #666;
+}
+
+.axis-datatime {
+  margin-left: -175rpx;
+  width: 185rpx;
+  height: 90rpx;
+  color: #c3c3c3;
+}
+
+.data {
+  margin-top: -80rpx;
+  margin-left: 70rpx;
+  width: 150rpx;
+  height: 40rpx;
+  font-size: 35rpx;
+}
+
+.year {
+  margin-top: 0rpx;
+  margin-left: 100rpx;
+  width: 150rpx;
+  height: 40rpx;
+  font-size: 25rpx;
+}
+
+.weui-axis-arrow{
+  margin-top: 30rpx;
+  margin-left: -45rpx;
+  width: 0rpx;
+  height: 0rpx;
+  border: 20rpx solid;
+  border-color: transparent white transparent transparent;
+}
+
+.weui-axis-content {
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  padding: 10rpx 10rpx;
+  width: 400rpx;
+  height: 100rpx;
+  font-size: 20rpx;
+  color: black;
+  background-color: white;
+}
+
+.weui-axis {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.weui-axis-list {
+  display: flex;
+  flex-direction: row;
+  height: 140rpx;
+  width: 100%;
+}
+
+.weui-left {
+  width: 30%;
+  height: 140rpx;
+}
+
+.weui-middle {
+  width: 5%;
+  height: 140rpx;
+}
+
+.weui-right {
+  right: 20rpx;
+  width: 65%;
+  height: 140rpx;
+}

@@ -1,0 +1,81 @@
+page {
+  background-color: #f0f0f0;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  padding: 40rpx 50rpx;
+  margin: 30rpx 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.user .userinfo-avatar {
+  flex: 1;
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.user .user-info {
+  flex: 5;
+  text-align: left;
+  margin-left: 40rpx;
+}
+
+.user .user-info text {
+  display: block;
+}
+
+.user .user-info .userinfo-nickname {
+  padding: 0rpx 0 5rpx 0;
+  font-size: 30rpx;
+  color: #818a8f;
+}
+
+.user .user-info .edit {
+  font-size: 30rpx;
+  color: #bababa;
+  line-height: 34rpx;
+}
+
+.user-menu-list {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  padding: 5rpx 50rpx;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.user-menu text {
+  flex: 1;
+  font-size: 30rpx;
+  color: black;
+  line-height: 30rpx;
+}
+.user-menu span{
+  display: inline-block;
+  line-height: 30rpx;
+  margin-right: 30rpx;
+  color: #707070;
+  font-size: 35rpx;
+}
+.hover-user-menu{
+  background-color: #e8e8e8;
+}
