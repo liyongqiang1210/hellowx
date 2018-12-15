@@ -1,50 +1,49 @@
-<!-- <view class='weui-cell-third'>
-  <block wx:for="{{axis}}">
-    <view class='weui-cell-list'>
-      <view class='weui-cell-line'></view>
-      <view class='weui-cell-circle'>
-        <view class='axis-datatime'>
-          <view class='data'>12.13</view>
-          <view class='year'>2018</view>
+<view class='weui-axis'>
+  <block wx:for="{{axis}}" wx:for-index="index" wx:for-item="item">
+    <view wx:if="{{index == 0}}">
+      <view class='flex-wrp weui-axis-list'>
+        <view class='flex-item weui-left' style='padding-top: 20rpx;'>
+          <view class='weui-axis-datetime'>
+            <view class='weui-axis-date'>{{item.date}}</view>
+            <view class='weui-axis-year'>{{item.year}}</view>
+          </view>
         </view>
-        <view class='axis-content'>
-          你好啊
+        <view class='flex-item weui-middle'  style='padding-top: 40rpx;'>
+          <view class='weui-axis-circle' style='margin-top:20rpx;margin-left:-4rpx;'>
+            <view class='circle' style='background-color:#0099FF;width:20rpx;height:20rpx;border-radius:50%;border:7rpx solid #AFDCF8;'></view>
+            <view class='line' style='margin-top: 12rpx;width:40rpx;'></view>
+          </view>
+          <view class='weui-axis-line' style='height:200rpx;'></view>
+        </view>
+        <view class='flex-item weui-right'  style='padding-top: 20rpx;'>
+          <view class='weui-axis-content'>
+            <text>{{item.content}}</text>
+          </view>
         </view>
       </view>
-      <view class='weui-cell-line'>
+    </view>
+    <view wx:else>
+      <view class='flex-wrp weui-axis-list'>
+        <view class='flex-item weui-left'>
+          <view class='weui-axis-datetime'>
+            <view class='weui-axis-date'>{{item.date}}</view>
+            <view class='weui-axis-year'>{{item.year}}</view>
+          </view>
+        </view>
+        <view class='flex-item weui-middle'>
+          <view class='weui-axis-line'></view>
+          <view class='weui-axis-circle'>
+            <view class='circle'></view>
+            <view class='line'></view>
+          </view>
+          <view class='weui-axis-line'></view>
+        </view>
+        <view class='flex-item weui-right'>
+          <view class='weui-axis-content'>
+            <text>{{item.content}}</text>
+          </view>
+        </view>
       </view>
     </view>
   </block>
-</view> -->
-
-<view class='weui-axis'>
-  <view class='flex-wrp weui-axis-list'>
-    <view class='flex-item weui-left'></view>
-    <view class='flex-item weui-middle'>
-      <view class='weui-axis-line'></view>
-      <view class='weui-axis-circle'></view>
-      <view class='weui-axis-line'></view>
-    </view>
-    <view class='flex-item weui-right'>
-      <view class='weui-axis-content'><view class='weui-axis-arrow'></view></view>
-    </view>
-  </view>
-  <view class='flex-wrp weui-axis-list'>
-    <view class='flex-item weui-left'></view>
-    <view class='flex-item weui-middle'>
-      <view class='weui-axis-line'></view>
-      <view class='weui-axis-circle'></view>
-      <view class='weui-axis-line'></view>
-    </view>
-    <view class='flex-item weui-right'></view>
-  </view>
-  <view class='flex-wrp weui-axis-list'>
-    <view class='flex-item weui-left'></view>
-    <view class='flex-item weui-middle'>
-      <view class='weui-axis-line'></view>
-      <view class='weui-axis-circle'></view>
-      <view class='weui-axis-line'></view>
-    </view>
-    <view class='flex-item weui-right'></view>
-  </view>
 </view>
